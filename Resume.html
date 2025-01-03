@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Stefaniabigail Lopez</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f7f7f7, #e3eaf5);
+            color: lightslategray;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 500;
+            animation: fadeInHeader 1s ease-out;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: grey;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00b3ff;
+        }
+
+        /* Main Content */
+        .main-content {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        .resume {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .resume-card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .resume-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .resume-card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .resume-card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        .resume-card ul li {
+            font-size: 1.1rem;
+        }
+
+        /* Smooth Buttons */
+        .download-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background-color: #00b3ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .download-btn:hover {
+            background-color: #0066cc;
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Sections */
+        .resume-section {
+            padding: 40px;
+            background-color: #f1faff;
+            margin-top: 40px;
+        }
+
+        .resume-section .resume-text-box {
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .resume-section .resume-text-box:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Footer */
+        footer {
+            font-size: 1.1rem;
+            margin-top: 40px;
+            background: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="About.html">About Me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header with RGB Gradient -->
+    <header>
+        <h1>Stefaniabigail Lopez - Resume</h1>
+        <p>Discover my experience, skills, and qualifications</p>
+    </header>
+
+    <div class="main-content">
+        <h2>Experience & Skills</h2>
+        <p>Here’s a look at my professional qualifications and the skills I’ve gained throughout my journey.</p>
+    </div>
+
+    <div class="resume">
+        <!-- Freshman Year Coursework -->
+        <div class="resume-card">
+            <h2>Freshman Year Coursework</h2>
+            <ul>
+                <li>Excel</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <p><strong>Freshman Year</strong></p>
+        </div>
+
+        <!-- Sophomore Year Coursework -->
+        <div class="resume-card">
+            <h2>Sophomore Year Coursework</h2>
+            <ul>
+                <li>Wireshark</li>
+                <li>Java</li>
+            </ul>
+            <p><strong>Sophomore Year</strong></p>
+        </div>
+
+        <!-- Junior Year Coursework -->
+        <div class="resume-card">
+            <h2>Junior Year Coursework</h2>
+            <ul>
+                <li>Mobile App Development (React Native)</li>
+                <li>Cloud Computing</li>
+                <li>Machine Learning</li>
+                <li>Cybersecurity</li>
+                <li>Advanced Database Management</li>
+            </ul>
+            <p><strong>Junior Year</strong></p>
+        </div>
+
+        <!-- Senior Year Coursework -->
+        <div class="resume-card">
+            <h2>Senior Year Coursework</h2>
+            <ul>
+                <li>Data Science with Python</li>
+                <li>Advanced Cloud Solutions</li>
+                <li>AI & Deep Learning</li>
+            </ul>
+        </div>
+
+        <!-- Junior Year Work Experience -->
+        <div class="resume-card">
+            <h2>Junior Year Work Experience</h2>
+            <p><strong>Junior Web Developer</strong> at Tech Solutions Inc.</p>
+            <p><em>2026 - Present</em></p>
+            <ul>
+                <li>Developed and maintained responsive websites using HTML, CSS, JavaScript, and React.js.</li>
+                <li>Collaborated with the design team to create seamless user experiences and interfaces.</li>
+                <li>Improved website performance by optimizing code and implementing best SEO practices.</li>
+            </ul>
+        </div>
+
+        <!-- Senior Year Work Experience -->
+        <div class="resume-card">
+            <h2>Senior Year Work Experience</h2>
+            <p><strong>Software Developer</strong> at XYZ Tech Solutions</p>
+            <p><em>2027 - Present</em></p>
+            <ul>
+                <li>Developed internal software tools to improve workflow efficiency.</li>
+                <li>Collaborated with cross-functional teams to deliver web-based solutions.</li>
+                <li>Led a team of 3 junior developers in coding best practices.</li>
+            </ul>
+        </div>
+
+        <!-- Download Resume Section -->
+        <div class="resume-section">
+            <div class="resume-text-box">
+                <h2>Download My Resume</h2>
+                <p>Click below to download my full resume and learn more about my qualifications and experience.</p>
+                <a href="Resume.pdf/Resume-2.pdf" download class="download-btn">Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Stefaniabigail Lopez</p>
+    </footer>
+
+</body>
+
+</html>

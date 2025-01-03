@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Stefaniabigail Lopez</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Body and Background */
+        body {
+            background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+            animation: gradientMove 10s ease infinite;
+            transition: background-color 1s ease;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 500;
+            animation: fadeInHeader 1s ease-out;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+
+        /* Footer Section */
+        .rgb-footer {
+            background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 999;
+            font-size: 14px;
+        }
+
+        /* Smooth Header Fade-in */
+        @keyframes fadeInHeader {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Gradient Animation */
+        @keyframes gradientMove {
+            0% {
+                background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            }
+
+            25% {
+                background: linear-gradient(135deg, rgba(255, 165, 0, 1), rgba(0, 255, 0, 1));
+            }
+
+            50% {
+                background: linear-gradient(135deg, rgba(0, 255, 255, 1), rgba(255, 0, 255, 1));
+            }
+
+            75% {
+                background: linear-gradient(135deg, rgba(0, 0, 255, 1), rgba(255, 0, 0, 1));
+            }
+
+            100% {
+                background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            }
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 1s ease;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff6f61;
+            transform: translateY(-5px);
+        }
+
+        /* Main Content Section */
+        .main-content {
+            padding: 50px 20px;
+            text-align: center;
+            margin-bottom: 100px;
+            /* Added margin to create space between content and footer */
+        }
+
+        .section-title {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Text Box */
+        .text-box {
+            background-color: white;
+            padding: 30px;
+            margin-top: 30px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        /* Footer with RGB Gradient */
+        .rgb-footer {
+            background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 999;
+            font-size: 14px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 28px;
+            }
+
+            .text-box {
+                padding: 20px;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header with RGB Gradient -->
+    <header>
+        <h1>Stefaniabigail Lopez - Computer Information Technology Portfolio</h1>
+        <p>Explore my degree journey, projects, and skills I’ve developed in the field of Computer Information
+            Technology.</p>
+    </header>
+
+    <!-- Main Portfolio Content -->
+    <div class="main-content">
+        <h2>Degree: Computer Information Technology</h2>
+        <div class="text-box">
+            <p>As part of my degree program, I've gained hands-on experience and a deep understanding of various IT
+                principles, programming languages, and technologies. Here are some of the projects and skills I’ve
+                worked on
+                throughout my studies.</p>
+        </div>
+    </div>
+
+    <!-- Footer with RGB Gradient -->
+    <div class="rgb-footer">
+        <p>&copy; 2024 Stefaniabigail Lopez | Computer Information Technology</p>
+    </div>
+
+</body>
+
+</html>
